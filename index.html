@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="pay_design.css">
+  <link rel="icon" href="logo.jpeg">
+  <style>
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 50px;
+      animation: bounce 2s infinite;
+    }
+  </style>
+  <style>
+    /* Define the animation */
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    /* Apply the animation to the button */
+    .subscribe-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      animation: pulse 2s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="akshay">Welcome to Projects</h1>
+  
+    <a href="loginpay.html"  class="login" id="loginBtn">Login</a>
+    <a href="signup.html" class="signup" id="loginBtn">Signup</a>
+    
+  </header>
+
+  <section>
+    <h2>Empowering Your Mission</h2>
+    <p>Your Project is dedicated to [mission or purpose of your project]. Explore our projects below and join our thriving community!</p>
+
+    <div class="projects">
+      <div class="project-card" id="card1">
+        <h3>Cross Site Scripting using stored attack</h3>
+        <p> A stored cross-site scripting vulnerability in the comment functionality. </p>
+        <a href="sell.html" class="cta-button">Explore Now</a>
+      </div>
+
+      <div class="project-card" id="card2">
+        <h3>Project 2</h3>
+        <p>Coming soon....</p>
+        <a href="#" class="cta-button" id="btn2">Discover More</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>Coming soon....</p>
+        <a href="#" class="cta-button">Discover More</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 4</h3>
+        <p>Coming soon....</p>
+        <a href="#" class="cta-button">Discover More</a>
+      </div>
+    </div>
+
+    <h2>Get Involved</h2>
+    <p>Become a part of Your Project community! Contribute, provide feedback, and stay updated with our latest developments.</p>
+
+    <a href="#" class="subscribe-btn">Subscribe Now</a>
+  </section>
+
+  <footer>
+    <p>© 2023. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

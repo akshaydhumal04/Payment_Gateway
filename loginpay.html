@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pay_design_login.css">
+  <link rel="icon" href="logo.jpeg">
+  <title>Login Page</title>
+</head>
+<body>
+  <header></header>
+  <div class="login-container">
+    <form id="loginForm">
+       
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="validateLogin()">Login</button>
+      <a id="signup" href="#">Sign_up</a>
+    </form>
+    <p id="error-message"></p>
+  </div>
+
+  <script src="pay_login.js"></script>
+  
+</body>
+</html>
+

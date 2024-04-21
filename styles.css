@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.para{
+    color: #2b0404;
+}
+ 
+header {
+    background-color: #79a1ec;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+#comments {
+    margin-top: 20px;
+}
+
+#commentList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, textarea, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Interactive Button Styles */
+.interactive-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 5px; /* Border radius for rounded corners */
+    color: #3498db; /* Text color */
+    background-color: #ffffff; /* Background color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transition for smooth hover effect */
+  }
+  
+  /* Hover styles */
+  .interactive-btn:hover {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  /* Active (clicked) styles */
+  .interactive-btn:active {
+    border-color: #2c3e50;
+    background-color: #2c3e50;
+    color: #ffffff;
+  }
+/* Back Button Styles */
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #e74c3c; /* Border color */
+    border-radius: 5px; /* Border radius for rounded corners */
+    color: #e74c3c; /* Text color */
+    background-color: #ffffff; /* Background color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transition for smooth hover effect */
+  }
+  
+  /* Hover styles */
+  .back-btn:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+  }
+  
+  /* Active (clicked) styles */
+  .back-btn:active {
+    border-color: #c0392b;
+    background-color: #c0392b;
+    color: #ffffff;
+  }
+  
+#btnhead{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#btnad{
+    position: relative;
+    top: 20px;
+}
+#commentText{
+    height: 100px;
+    width: 250px;
+}
+#commentName{
+    width: 250px;
+}
